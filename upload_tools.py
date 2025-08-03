@@ -24,7 +24,7 @@ class Command(CommandDefinition):
 
     PROG = "upload_tools"
     ARGS = {
-        "local_zip": Parameter(Complete.LOCAL_FILE, nargs="?", default="/home/sway/Desktop/save_mega/tools/LINUX/tools.zip", help="Local path to the tools zip"),
+        "local_zip": Parameter(Complete.LOCAL_FILE, nargs="?", default="examplePath/tools.zip", help="Local path to the tools zip"),
         "remote_path": Parameter(Complete.REMOTE_FILE, nargs="?", default="/tmp/tools.zip", help="Remote file path"),
     }
 
