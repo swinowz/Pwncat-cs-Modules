@@ -10,6 +10,7 @@ You can change the default path ( to avoid having to specify it everytime ) on l
 ```
 upload_tools 
 upload_tools localPath
+upload_tools localPath remotePath
 ```
 
 <img width="1904" height="842" alt="image" src="https://github.com/user-attachments/assets/976fcdcb-3952-4e5a-b706-5616caa7224d" />
