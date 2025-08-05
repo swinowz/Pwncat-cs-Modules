@@ -3,7 +3,7 @@ Base path : `~/.local/lib/pythonX.XX/site-packages/pwncat`
 
 ## upload_tools.py
 Put this into the commands folder ( /pwncat/commands )
-Pwncat has a hard time uploading zip files so when you see the first progress bar at 100%, you can CTRL+C to stop the command.
+Pwncat has a hard time uploading zip files so when you see the first progress bar at 100%, if it's stuck, you can just press CTRL+C to stop the command.
 
 You can change the default path ( to avoid having to specify it everytime ) on line 27 ( same for destination )
 
